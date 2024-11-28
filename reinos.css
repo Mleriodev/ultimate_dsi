@@ -473,3 +473,23 @@ margin-left: 170px;
   color: white;
   font-weight: bold;
 }
+
+.formulario{
+  color: #3a7149;
+  font-weight: bold;
+}
+
+#a, #b, #c, #d, #e, #f{
+  width: 100%;   
+}
+
+form{
+    padding: 20px;
+    background-color: rgb(101, 179, 111);
+    border-radius: 10px;
+    display: block;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+   margin-top: 20px;
+}
