@@ -1,0 +1,475 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #3a7149; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 10px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 10px;
+  font-size: 22px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(122, 216, 135); 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000; 
+}
+
+img {
+  max-width: 100%;
+  height: 330px;
+  margin: 4.5px;
+  border-radius: 20px;
+  padding-left:5px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+details {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+details[open] {
+  padding-bottom: 10px;
+}
+
+ul {
+  background: url(imagem\ de\ nav.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li:before {
+  content: "\2022";
+  color: #40ff00;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 15px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-weight: bold;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+}
+
+#animalia {
+  background-image: linear-gradient(to bottom, rgb(101, 179, 111), rgb(73, 124, 79), rgb(27, 65, 32));
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: auto;
+}
+
+#button {
+  background-color: rgb(122, 216, 135);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#button:hover {
+  border-radius: 5px;
+  background-color: rgb(17, 85, 17);
+  color:white;
+  padding: 10px;
+  margin: 10px;
+}
+
+#fungi {
+  background-image: linear-gradient(to bottom, rgb(101, 179, 111), rgb(73, 124, 79), rgb(27, 65, 32));
+}
+
+#fungi1 {
+  border-radius: 20px;
+  width: 98.5%;
+}
+
+#fungi2 {
+  display: grid;
+  background-color: rgb(17, 85, 17);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#mofo, #bolor, #cogumelo {
+  grid-row: 1/1;
+  grid-column: span 1;
+}
+
+#fungi3 {
+  background-color: rgb(17, 85, 17);
+  width: auto;
+  color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: space-around;
+}
+
+#mofo1{
+  background-color: rgb(101, 179, 111);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+#bolor1{
+  background-color: rgb(101, 179, 111);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 230px;
+}
+
+#cogumelo1{
+  background-color: rgb(101, 179, 111);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+#monera {
+  background-image: linear-gradient(to bottom, rgb(101, 179, 111), rgb(73, 124, 79), rgb(27, 65, 32));
+}
+
+#monera1 {
+  border-radius: 20px;
+  width: 98.5%;
+}
+
+#monera2 {
+  display: grid;
+  background-color: rgb(74, 116, 74);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#bacterias{
+  grid-row: 1/1;
+  grid-column: span 1;
+  padding-left: 100px;
+}
+#cianobacterias{
+  grid-row: 1/1;
+  grid-column: span 1;
+  padding-left: 120px;
+}
+
+#monera3 {
+  background-color: rgb(17, 85, 17);
+  width: auto;
+  color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: space-around;
+}
+
+#monera4 {
+  background-color: rgb(17, 85, 17);
+  width: auto;
+  color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: space-around;
+}
+
+#monera5 {
+  background-color: rgb(107, 177, 107);
+  width: auto;
+  color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: space-around;
+}
+
+#bacterias1, #cianobacterias1 {
+  background-color: rgb(101, 179, 111);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#animalia {
+  background-image: linear-gradient(to bottom, rgb(101, 179, 111), rgb(73, 124, 79),rgb(27, 65, 32));
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: auto;
+}
+
+#button{
+background-color: rgb(122, 216, 135);
+border-radius: 10px;
+padding: 10px;
+margin: 10px;
+
+}
+
+#button:hover{
+  border-radius: 5px;
+  background-color: rgb(17, 85, 17);
+  color:white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#animalia1{
+border-radius: 20px;
+}
+
+#animalia2{
+border-radius: 10px;
+display: flex;
+background-color: rgb(17, 85, 17);
+}
+
+#animalia3{
+background-color: rgb(17, 85, 17);
+width: auto;
+color: rgb(28, 28, 28);
+display:flex;
+align-items: start;
+
+}
+#aguia1, #onça1, #peixes1, #camaleao1, #sapo1{
+background-color: rgb(101, 179, 111);
+border-radius: 10px;
+font-size: 25px;
+padding: 10px;
+font-weight: bold;
+
+}
+#aguia, #onça, #peixes, #camaleao, #sapo{
+width: 100%;
+height: 480px;
+
+}
+#peixes1{
+margin-left: 48px;
+}
+#onça1{
+margin-left: 90px;
+}
+#sapo1{
+margin-left: 153px;
+}
+#aguia1{
+margin-left: 200px;
+}
+#camaleao1{
+margin-left: 170px;
+}
+
+#protista{
+  background-image: linear-gradient(to bottom, rgb(101, 179, 111), rgb(73, 124, 79),rgb(27, 65, 32));
+}
+
+#protista1{
+  border-radius: 20px;
+}
+
+#protista2{
+  display: grid;
+  background-color: rgb(17, 85, 17);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#protozoário{
+  grid-row: 1/1;
+  grid-column: 1/2;
+}
+
+#algas{
+  grid-row: 1/1;
+  grid-column: 2/3;
+}
+
+#mixomicetos{
+  grid-row: 1/1;
+  grid-column: 3/4;
+}
+
+#protista3{
+  background-color: rgb(17, 85, 17);
+  width: auto;
+  color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: flex-start;
+}
+
+#protozoário1, #algas1, #mixomicetos1{
+  background-color: rgb(122, 216, 135);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#protozoário1{
+  margin-left: 140px;
+}
+
+#algas1{
+  margin-left: 325px;
+}
+
+#mixomicetos1{
+  margin-left: 350px;
+}
+
+#protozoário2{
+  color: rgb(17, 85, 17);
+  margin-left: 10px;
+}
+
+#algas2{
+  color:rgb(17, 85, 17);
+  margin-left: 10px;
+}
+
+#mixomicetos2{
+  color: rgb(17, 85, 17);
+  margin-left: 10px;
+}
+
+#vegetal {
+  background-color:  rgb(101, 179, 111);
+  background-position: center;
+  height: 100%;
+  width: auto;
+}
+
+
+
+#vegetal1 {
+  border-radius: 20px;
+  width: 98.5%;
+}
+
+#vegetal2 {
+  background-color: rgb(74, 116, 74);
+  color: rgb(28, 28, 28);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#vegetal3 {
+  background-color: rgb(17, 85, 17);
+  color: rgb(28, 28, 28);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#vegetal4 {
+  background-color: rgb(107, 177, 107);
+  color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: space-around;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.group img {
+  margin-left: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+#briófitas1, #pteridofitas1, #gimnospermas1, #angiospermas1 {
+  background-color: rgb(101, 179, 111);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#vegetal3 img {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgb(101, 179, 111);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
